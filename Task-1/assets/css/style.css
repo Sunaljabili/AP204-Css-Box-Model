@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+}
+#id{
+    margin: 20px;
+}
+.learning{
+    background-color:aqua;
+    width: 100%;
+}
+.learning p{
+    padding: 60px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.web{
+text-align: center;
+}
+
+.web p{
+margin: 0 auto;
+width: 30%;
+margin-top: 20px;
+    
+}
+
+.technology{
+width: 100%;
+padding: 25px;
+color: white;
+background-color: blueviolet;
+}
+.technology h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.technology div{
+    width: 30%;
+    display: inline-block;
+}

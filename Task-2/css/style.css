@@ -1,0 +1,46 @@
+.title{
+    display: flex;
+    width: 100%;
+
+
+}
+.title h1{
+font-size: 34px;
+}   
+.title p{
+    font-size: 20px;
+    width:500px;
+}
+
+#cards{
+display: flex;
+/* justify-content: space-between; */
+width:100% ;
+}
+#cards div{
+    width: 30%;
+padding:25px;
+border: 1px solid gray;
+text-align: center;
+}
+#cards div i{
+    color: rgb(197, 197, 97);
+    font-size: 30px;
+}
+#cards div p{
+    color: gray;
+}
+#cards div a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    border-bottom: 2px solid black;
+}
+#cards:hover{
+    background-color: red;
+    color: green;
+    transform:translate(40px);
+    transition: 3s;
+    transform: rotate(20deg);
+}
+
